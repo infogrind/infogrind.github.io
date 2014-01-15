@@ -32,5 +32,3 @@ function logFrame(frame) {
 		console.log("No frame");
 	}
 }
-
-executeInFrames(logFrame);

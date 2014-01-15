@@ -23,6 +23,7 @@ function executeInFrames(callback) {
 function logFrame(frame) {
 	if (frame) {
 		console.log("Current frame name: " + frame.name);
+		console.log("Current frame location: " + frame.location);
 	}
 	else {
 		console.log("No frame");

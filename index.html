@@ -18,7 +18,13 @@
               <div id="bzeMainIFrameBox">
                   <iframe id="bzeMainIFrame" scrolling="no" frameborder="1"
                       src="bzeMain.html" name="bzeMainIframe">
-                  </div>
+                  </iframe>
+                  <script type="text/javascript">
+                  	console.log("Setting bzeMainIFrame.ready handler");
+                  	$("#bzeMainIFrame").ready(function() {
+                  		console.log("bzeMainIFrame.ready handler executed");
+                  	});
+                  </script>
               </div>
           </div>
       </div>

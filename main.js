@@ -14,6 +14,9 @@ function executeInFrames(callback) {
 					processFrame(frame.frames[i]);
 				}
 			}
+			else {
+				console.log("No child frames in current frame");
+			}
 		});
 	}
 
